@@ -1,6 +1,6 @@
 {
-  "name": "honors_radix",
-  "description": "A theme based on Radix.",
+  "name": "{{machine_name}}",
+  "description": "{{Description}}",
   "bowerDir": "./bower_components",
   "css": {
     "file" : "honors_radix.style.scss",

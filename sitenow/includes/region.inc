@@ -7,7 +7,7 @@
 /**
  * Implements hook_preprocess_region().
  */
-function honors_radix_preprocess_region(&$vars) {
+function {{machine_name}}_preprocess_region(&$vars) {
   // Combine #wrapper_classes with the region_classes.
   // @see page.inc
   if (isset($vars['elements']['#wrapper_classes'])) {

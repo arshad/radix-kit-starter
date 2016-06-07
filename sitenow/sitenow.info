@@ -1,5 +1,5 @@
-name        = honors_radix
-description = A theme based on Radix.
+name        = {{Name}}
+description = {{Description}}
 screenshot  = screenshot.png
 core        = 7.x
 

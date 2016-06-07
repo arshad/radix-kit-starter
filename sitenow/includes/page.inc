@@ -7,7 +7,7 @@
 /**
  * Implements template_preprocess_page().
  */
-function honors_radix_preprocess_page(&$vars) {
+function {{machine_name}}_preprocess_page(&$vars) {
   $base_path = $GLOBALS['base_path'];
 
   // Add a grid definitions for '.main-content' regions.
@@ -23,7 +23,7 @@ function honors_radix_preprocess_page(&$vars) {
 /**
  * Implements template_process_page().
  */
-function honors_radix_process_page(&$vars) {
+function {{machine_name}}_process_page(&$vars) {
   // If there is no container set OR it's set to true.
   if (!isset($vars['container']) || $vars['container'] == TRUE) {
     // Add a container to '.main-content'.

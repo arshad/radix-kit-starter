@@ -7,7 +7,7 @@
 /**
  * Implements hook_preprocess_block().
  */
-function honors_radix_preprocess_block(&$vars) {
+function {{machine_name}}_preprocess_block(&$vars) {
   // Set classes based upon #wrapper_classes.
   // @see page.inc.
   if (isset($vars['elements']['#wrapper_classes'])) {
