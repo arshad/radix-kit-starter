@@ -32,7 +32,6 @@ function {{machine_name}}_css_alter(&$css) {
     'modules/system/maintenance.css' => FALSE,
     'modules/system/system.css' => FALSE,
     'modules/system/system.admin.css' => FALSE,
-    'modules/system/system.base.css' => FALSE,
     'modules/system/system.maintenance.css' => FALSE,
     'modules/system/system.menus.css' => FALSE,
     'modules/system/system.messages.css' => FALSE,

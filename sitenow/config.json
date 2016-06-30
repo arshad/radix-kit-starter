@@ -3,7 +3,7 @@
   "description": "{{Description}}",
   "bowerDir": "./bower_components",
   "css": {
-    "file" : "honors_radix.style.scss",
+    "file" : "{{machine_name}}.style.scss",
     "src": [
       "scss/**/*.scss"
     ],
@@ -14,7 +14,7 @@
     ]
   },
   "js": {
-    "file" : "honors_radix.script.js",
+    "file" : "{{machine_name}}.script.js",
     "src": [
       "assets/js/**/*.js"
     ],
