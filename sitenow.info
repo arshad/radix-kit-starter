@@ -20,18 +20,12 @@ breakpoints[md] = (min-width: 992px) and (max-width: 1199px)
 breakpoints[lg] = (min-width: 1200px)
 
 ; CSS - General
-stylesheets[all][]     = assets/css/honors_radix.style.css
+stylesheets[all][]     = assets/css/{{machine_name}}.style.css
 
 ; Javascript
-scripts[] = assets/js/honors_radix.script.js
+scripts[] = assets/js/{{machine_name}}.script.js
 
 ; Settings
 ; Set this to FALSE for development only.
 settings[preprocess_css] = FALSE
-
-; Information added by Drupal.org packaging script on 2016-05-15
-version = "7.x-3.4"
-core = "7.x"
-project = "radix"
-datestamp = "1463294557"
 
