@@ -20,10 +20,10 @@ breakpoints[md] = (min-width: 992px) and (max-width: 1199px)
 breakpoints[lg] = (min-width: 1200px)
 
 ; CSS - General
-stylesheets[all][]     = assets/css/honors_radix.style.css
+stylesheets[all][]     = assets/css/{{machine_name}}.style.css
 
 ; Javascript
-scripts[] = assets/js/honors_radix.script.js
+scripts[] = assets/js/{{machine_name}}.script.js
 
 ; Settings
 ; Set this to FALSE for development only.
