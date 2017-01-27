@@ -1,9 +1,10 @@
 # Radix-Starter-Kit
 
 1. Place "sitenow" in [path_to_radix]/kits/
-2. ```drush radix {{subtheme_name}} --kit="sitenow"```
-3. You will have to change the "includes" folder hook_ names.
-4. Edit the info, config.json, theme-settings.php files and replace references to honors_radix with your theme name.
-5. ```npm run setup```
-6. ```gulp```
+2. Enable and set the Radix theme as the default theme. See https://www.drupal.org/node/2552571#comment-11162311
+3. ```drush @sitealias.local radix {{subtheme_name}} --kit="sitenow"```
+4. You will have to change the "includes" folder hook_ names.
+5. Edit the info, config.json, theme-settings.php files and replace references to honors_radix with your theme name.
+6. ```npm run setup```
+7. ```gulp```
 
